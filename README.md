@@ -20,7 +20,7 @@ A game i made for a game jam
 
 My Chipkit Game for the course IS1200 Comupter Hardware
 <video width="750" height="500" controls>
-  <source src="[path/to/your-video.mp4](https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f)https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f" type="video/mp4">
+  <source src="https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f)https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
