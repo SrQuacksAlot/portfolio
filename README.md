@@ -6,8 +6,8 @@
 ## Work Experience
 - Internship - local municipality IT department 2 weeks
 ## Projects
-### A Puzzle game i made in High School
+- A Puzzle game i made in High School
 ![PuzzleGame](https://github.com/SrQuacksAlot/portfolio/assets/52632838/afd0a2f3-7bd3-4e76-9b9e-270aaf8d7cab)
-### A Study/Break timer to study more effectively
+- A Study/Break timer to study more effectively
 ![StudyTimer](https://github.com/SrQuacksAlot/portfolio/assets/52632838/3f58bb4f-15d2-4f00-88df-451071d52c0b)
 
