@@ -19,7 +19,7 @@ A game i made for a game jam
 <img width="1431" alt="SpaceAdventure" src="https://github.com/SrQuacksAlot/portfolio/assets/52632838/baca0106-1e9d-4b6b-8e39-a9d921b46c02">
 
 My Chipkit Game for the course IS1200 Comupter Hardware
-https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f
+[IS1200](https://github.com/SrQuacksAlot/portfolio/assets/52632838/c8ba9195-1ffd-4639-9536-800c1f87da7f)
 
 
 
