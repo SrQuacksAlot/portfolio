@@ -1,8 +1,8 @@
 # Computer Scientist Student
 
 ### Education
-Undergraduate: KTH - Computer Science 2023-2026
-High School: Fridegårdsgymnasiet - Technology and Design 2020-2023
+- Undergraduate: KTH - Computer Science 2023-2026
+- High School: Fridegårdsgymnasiet - Technology and Design 2020-2023
 ### Work Experience
 Internship - local municipality IT department 2 weeks
 ### Projects
