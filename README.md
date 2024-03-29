@@ -9,7 +9,7 @@ Internship - local municipality IT department 2 weeks
 A program for setting goals and achieving them by getting reminders from the app (not complete).
 The program uses python and kivy as the GUI.
 <video width="750" height="500" controls>
-  <source src="[https://github.com/SrQuacksAlot/portfolio/assets/52632838/5caf7224-9a5d-40d6-a52d-121fd9755767](https://github.com/SrQuacksAlot/portfolio/assets/52632838/8650c95a-dc0f-48dc-898f-2243c0763e40)" type="video/mp4">
+  <source src="https://github.com/SrQuacksAlot/portfolio/assets/52632838/8650c95a-dc0f-48dc-898f-2243c0763e40" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
