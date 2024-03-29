@@ -6,6 +6,13 @@ High School: Fridegårdsgymnasiet - Technology and Design 2020-2023
 ### Work Experience
 Internship - local municipality IT department 2 weeks  
 ### Projects
+A program for setting goals and achieving them by getting reminders from the app (not complete).
+The program uses python and kivy as the GUI.
+<video width="750" height="500" controls>
+  <source src="[https://github.com/SrQuacksAlot/portfolio/assets/52632838/5caf7224-9a5d-40d6-a52d-121fd9755767](https://github.com/SrQuacksAlot/portfolio/assets/52632838/8650c95a-dc0f-48dc-898f-2243c0763e40)" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 A Puzzle game i made in High School
 [The link to download the code for the game](https://github.com/SrQuacksAlot/PuzzleGame)  
 ![PuzzleGame](https://github.com/SrQuacksAlot/portfolio/assets/52632838/afd0a2f3-7bd3-4e76-9b9e-270aaf8d7cab)
