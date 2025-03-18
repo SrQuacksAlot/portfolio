@@ -7,9 +7,12 @@ High School: Fridegårdsgymnasiet - Technology and Design 2020-2023
 Internship - local municipality IT department 2 weeks  
 ### Projects
 
-My project for the course DH2642 HT24 Interaction Programming and the Dynamic Web. This project was done by me and my partner Ante Abdullahi.
+My project for the course DH2642 HT24 Interaction Programming and the Dynamic Web. The project involed creating a webpage that fetched information from a databse. We decided to make a website where you can search for dishes and their nutritional values. But also you can search for different dishes using ingredients.
 [Check it out on this site](https://dh2642-ht24-project.web.app/react.html#/search) 
 ![image](https://github.com/user-attachments/assets/1b0e10e9-2715-459e-99e6-6c203a2d6a6a)
+This project was done by me and my partner Ante Abdullahi.
+This was a project that required constant communication so we were always on the same page and we also gave each other constant feedback so the webpage would be as good as possible.
+In order to get all the information for all the dishes we used the Spoonacular Api. And for persistency we used firebase so each users data got saved. [The github repository](https://github.com/SrQuacksAlot/Dishcovery)
 
 A program for setting goals and achieving them by getting reminders from the app (not complete).
 The program uses python and kivy as the GUI.
