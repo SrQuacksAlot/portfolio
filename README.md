@@ -13,6 +13,10 @@ The program uses python and kivy as the GUI.
   Your browser does not support the video tag.
 </video>
 
+My project for the course DH2642 HT24 Interaction Programming and the Dynamic Web. This project was done by me and my partner Ante Abdullahi.
+![image](https://github.com/user-attachments/assets/1b0e10e9-2715-459e-99e6-6c203a2d6a6a)
+
+
 A Puzzle game i made in High School
 [The link to download the code for the game](https://github.com/SrQuacksAlot/PuzzleGame)  
 ![PuzzleGame](https://github.com/SrQuacksAlot/portfolio/assets/52632838/afd0a2f3-7bd3-4e76-9b9e-270aaf8d7cab)
