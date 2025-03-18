@@ -1,4 +1,4 @@
-# Computer Scientist Student
+# Computer Science Student
 
 ### Education
 Undergraduate: KTH - Computer Science 2023-2026  
