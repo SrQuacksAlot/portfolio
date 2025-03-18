@@ -14,6 +14,7 @@ The program uses python and kivy as the GUI.
 </video>
 
 My project for the course DH2642 HT24 Interaction Programming and the Dynamic Web. This project was done by me and my partner Ante Abdullahi.
+Check it out on this site https://dh2642-ht24-project.web.app/react.html#/search
 ![image](https://github.com/user-attachments/assets/1b0e10e9-2715-459e-99e6-6c203a2d6a6a)
 
 
