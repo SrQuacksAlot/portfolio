@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khalil Khalil — Computer Engineer</title>
+  <meta name="description" content="Khalil Khalil is a computer engineering graduate from KTH. Backend systems, data pipelines, 3D visualization and game development.">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="canonical" href="https://srquacksalot.github.io/portfolio/">
+
+  <meta property="og:title" content="Khalil Khalil — Computer Engineer">
+  <meta property="og:description" content="Backend systems, data pipelines, 3D visualization and game development.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://srquacksalot.github.io/portfolio/">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Khalil Khalil",
+      "jobTitle": "Computer Engineer",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "KTH Royal Institute of Technology"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bålsta",
+        "addressCountry": "SE"
+      },
+      "email": "mailto:khalil.kmail@proton.me",
+      "sameAs": [
+        "https://github.com/SrQuacksAlot",
+        "https://www.linkedin.com/in/khalil-khalil-92997a256/"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Khalil Khalil — back to top">
+        <span class="brand-mark" aria-hidden="true">KK</span>
+        <span class="brand-text">Khalil<span>.</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-label">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Open to software engineering roles</p>
+          <h1>Khalil Khalil</h1>
+          <p class="hero-title">Computer engineering graduate building <span class="accent">backend systems</span>, <span class="accent">data pipelines</span> and <span class="accent">interactive 3D experiences</span>.</p>
+          <p class="hero-text">I graduated from KTH Royal Institute of Technology in 2026. I like the part of software where things have to hold together under real use: clear APIs, predictable data flows, and interfaces that respond fast enough to feel immediate.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">See my work</a>
+            <a class="button button-ghost" href="#contact">Contact me</a>
+          </div>
+          <ul class="hero-meta">
+            <li>Bålsta, Sweden</li>
+            <li>KTH 2023–2026</li>
+            <li>Swedish · English · Dari</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Profile summary">
+          <div class="card-top">
+            <span class="card-dot card-dot-red" aria-hidden="true"></span>
+            <span class="card-dot card-dot-amber" aria-hidden="true"></span>
+            <span class="card-dot card-dot-green" aria-hidden="true"></span>
+            <span class="mono">profile.json</span>
+          </div>
+          <pre><code>{
+  <span class="code-key">"name"</span>: <span class="code-string">"Khalil Khalil"</span>,
+  <span class="code-key">"role"</span>: <span class="code-string">"Computer Engineer"</span>,
+  <span class="code-key">"school"</span>: <span class="code-string">"KTH"</span>,
+  <span class="code-key">"focus"</span>: [<span class="code-string">"backend"</span>, <span class="code-string">"data"</span>, <span class="code-string">"3D"</span>, <span class="code-string">"games"</span>],
+  <span class="code-key">"status"</span>: <span class="code-bool">"open to work"</span>
+}</code></pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / About</p>
+          <h2>I like the part where it has to work.</h2>
+        </div>
+        <div class="section-body reveal">
+          <p class="section-lead">My work sits between backend logic and the interface people actually use. That can mean an API with clear boundaries, a data pipeline that stays predictable, or a game loop that feels right at 60 fps.</p>
+          <p>At KTH I focused on software development, with coursework in operating systems, computer networks, data storage, AI and application architecture. My projects range from a Spring Boot recruitment platform and a React route-planning app to a CARLA racing agent trained from scratch and a 3D tool for exploring how language models distribute probability.</p>
+          <p>Outside coursework I build games in Unity and Three.js. That is where I keep practising the parts that are hard to fake: state, timing, feedback and performance.</p>
+
+          <dl class="fact-grid">
+            <div class="fact">
+              <dt>Based in</dt>
+              <dd>Bålsta, Sweden</dd>
+            </div>
+            <div class="fact">
+              <dt>Degree</dt>
+              <dd>Computer Engineering, KTH 2026</dd>
+            </div>
+            <div class="fact">
+              <dt>Focus</dt>
+              <dd>Backend · Data · 3D · Games</dd>
+            </div>
+            <div class="fact">
+              <dt>Languages</dt>
+              <dd>Swedish · English · Dari</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-heading">
+            <p class="eyebrow">02 / Projects</p>
+            <h2>Selected work.</h2>
+          </div>
+          <p class="section-lead">A mix of degree projects, course projects and things I build on my own time. Each card describes the part I worked on.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-card--wide reveal">
+            <div class="project-main">
+              <div class="project-kicker">
+                <span class="project-index">01</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3>3D AI Visualization Platform</h3>
+              <p class="project-subtitle">Degree project · KTH</p>
+              <p class="project-description">An explorable 3D representation of how a language model distributes probability across tokens.</p>
+              <ul class="project-points">
+                <li>Built the FastAPI backend for processing high-dimensional embeddings from language models.</li>
+                <li>Implemented dimensionality reduction with UMAP and clustering with HDBSCAN.</li>
+                <li>Exposed token probabilities and entropy through the API.</li>
+                <li>Integrated the React and Three.js visualization with the backend data model.</li>
+              </ul>
+            </div>
+            <div class="project-side">
+              <p class="side-label">Backend &amp; data</p>
+              <ul class="side-list">
+                <li>API design</li>
+                <li>Embedding pipelines</li>
+                <li>Dimensionality reduction</li>
+                <li>3D integration</li>
+              </ul>
+              <ul class="tags">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>React</li>
+                <li>Three.js</li>
+                <li>UMAP</li>
+                <li>HDBSCAN</li>
+                <li>HuggingFace</li>
+                <li>llama.cpp</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card project-card--wide reveal">
+            <div class="project-main">
+              <div class="project-kicker">
+                <span class="project-index">02</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>Autonomous Racing AI</h3>
+              <p class="project-subtitle">Course project · KTH</p>
+              <p class="project-description">A reinforcement-learning agent that learns to race in the CARLA simulator.</p>
+              <ul class="project-points">
+                <li>Built the CARLA training environment with a custom VecEnv.</li>
+                <li>Designed a 9-channel observation space combining the front camera and side mirrors.</li>
+                <li>Implemented the reward function, training loop and inference path.</li>
+                <li>Trained a PPO agent from scratch for 10.2 million steps with Stable-Baselines3.</li>
+              </ul>
+            </div>
+            <div class="project-side">
+              <p class="side-label">Training stack</p>
+              <ul class="side-list">
+                <li>Environment design</li>
+                <li>Observation space</li>
+                <li>Reward shaping</li>
+                <li>Training &amp; inference</li>
+              </ul>
+              <ul class="tags">
+                <li>Python</li>
+                <li>CARLA 0.9.16</li>
+                <li>PPO</li>
+                <li>Stable-Baselines3</li>
+                <li>OpenCV</li>
+                <li>VecEnv</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">03</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>SustainaBin</h3>
+            <p class="project-subtitle">Course project · KTH</p>
+            <p class="project-description">A React app for planning smarter household waste collection routes.</p>
+            <ul class="project-points">
+              <li>Realtime Firebase sync and persistence.</li>
+              <li>Caching to avoid redundant database writes.</li>
+              <li>Route engine using nearest neighbour and 2-opt on Google Maps.</li>
+              <li>Admin and device permissions, duplicate validation and user points.</li>
+            </ul>
+            <ul class="tags">
+              <li>React 19</li>
+              <li>Vite</li>
+              <li>Firebase</li>
+              <li>Tailwind CSS</li>
+              <li>Google Maps</li>
+              <li>MobX</li>
+              <li>Jest</li>
+            </ul>
+            <a class="project-link" href="https://sustainabin-7baac.web.app/" target="_blank" rel="noopener noreferrer">Open live app <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">04</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Recruitment Platform</h3>
+            <p class="project-subtitle">Course project · KTH</p>
+            <p class="project-description">A Spring Boot application for managing job applications and recruitment flows.</p>
+            <ul class="project-points">
+              <li>JPA entities and repositories for the core domain model.</li>
+              <li>SQL migrations for password hashing and test data.</li>
+              <li>Spring Security login and centralised error handling for 400, 404 and 503.</li>
+              <li>Server-side pagination, form validation and JUnit tests.</li>
+            </ul>
+            <ul class="tags">
+              <li>Java 21</li>
+              <li>Spring Boot 3.4</li>
+              <li>Spring Security</li>
+              <li>Spring Data JPA</li>
+              <li>PostgreSQL</li>
+              <li>Thymeleaf</li>
+              <li>JUnit</li>
+            </ul>
+            <a class="project-link" href="https://iv1201-recruitment.azurewebsites.net/" target="_blank" rel="noopener noreferrer">Open live app <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">05</span>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Endless Runner</h3>
+            <p class="project-subtitle">Solo project</p>
+            <p class="project-description">A synthwave endless runner with 3D graphics and procedural audio.</p>
+            <ul class="project-points">
+              <li>3D rendering with Three.js and WebGL.</li>
+              <li>Procedural Web Audio for music and sound effects.</li>
+              <li>Boost, crash and cooldown mechanics with unlockable skins.</li>
+              <li>Responsive one-hand control layout.</li>
+            </ul>
+            <ul class="tags">
+              <li>Three.js</li>
+              <li>WebGL</li>
+              <li>JavaScript</li>
+              <li>HTML5 Canvas</li>
+              <li>Web Audio API</li>
+            </ul>
+            <a class="project-link" href="https://srquacksalot.github.io/neon-rooftop-runner/" target="_blank" rel="noopener noreferrer">Play the game <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">06</span>
+              <span class="project-year">2022–2026</span>
+            </div>
+            <h3>Unity Game Development</h3>
+            <p class="project-subtitle">Hobby projects</p>
+            <p class="project-description">Small games and prototypes built in Unity and C#.</p>
+            <ul class="project-points">
+              <li>Gameplay loops, state machines and event systems.</li>
+              <li>Physics-driven interactions and level flow.</li>
+              <li>Prototyping mechanics and tuning game feel.</li>
+            </ul>
+            <ul class="tags">
+              <li>Unity</li>
+              <li>C#</li>
+            </ul>
+            <div class="project-links">
+              <a class="project-link" href="https://github.com/SrQuacksAlot/PuzzleGame" target="_blank" rel="noopener noreferrer">PuzzleGame <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="https://play.unity.com/mg/other/space-adventure-3" target="_blank" rel="noopener noreferrer">Space Adventure <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">07</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>Dishcovery</h3>
+            <p class="project-subtitle">Course project · KTH</p>
+            <p class="project-description">A React app for searching dishes, ingredients and nutritional values.</p>
+            <ul class="project-points">
+              <li>Search by dish or by the ingredients you have at home.</li>
+              <li>REST integration with the Spoonacular API.</li>
+              <li>Firebase-backed user data and persistence.</li>
+            </ul>
+            <ul class="tags">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>REST</li>
+              <li>Firebase</li>
+            </ul>
+            <a class="project-link" href="https://dh2642-ht24-project.web.app/react.html" target="_blank" rel="noopener noreferrer">Open live app <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-kicker">
+              <span class="project-index">08</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>StudyTimer</h3>
+            <p class="project-subtitle">Personal project</p>
+            <p class="project-description">A Windows Forms timer for alternating study and break sessions.</p>
+            <ul class="project-points">
+              <li>Configurable study and break durations.</li>
+              <li>Progress bar, sound notification and completed-session counter.</li>
+              <li>Built with C# and Windows Forms on .NET Framework 4.7.2.</li>
+            </ul>
+            <ul class="tags">
+              <li>C#</li>
+              <li>WinForms</li>
+              <li>.NET Framework 4.7.2</li>
+            </ul>
+            <a class="project-link" href="https://github.com/SrQuacksAlot/StudyTimer" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / Skills</p>
+          <h2>Tools I reach for.</h2>
+        </div>
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>SQL</li>
+              <li>C</li>
+              <li>Bash</li>
+              <li>Assembly (MIPS)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend</h3>
+            <ul>
+              <li>FastAPI</li>
+              <li>Spring Boot</li>
+              <li>REST APIs</li>
+              <li>Spring Security</li>
+              <li>JPA / Hibernate</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frontend &amp; graphics</h3>
+            <ul>
+              <li>React</li>
+              <li>Three.js</li>
+              <li>WebGL</li>
+              <li>HTML5 Canvas</li>
+              <li>Tailwind CSS</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Data &amp; AI</h3>
+            <ul>
+              <li>UMAP</li>
+              <li>HDBSCAN</li>
+              <li>scikit-learn</li>
+              <li>Stable-Baselines3</li>
+              <li>OpenCV</li>
+              <li>CARLA</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Systems &amp; networking</h3>
+            <ul>
+              <li>TCP/IP</li>
+              <li>Sockets</li>
+              <li>POSIX</li>
+              <li>Processes</li>
+              <li>Threads</li>
+              <li>Packet analysis (course lab)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools &amp; practices</h3>
+            <ul>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Linux</li>
+              <li>VS Code</li>
+              <li>VirtualBox</li>
+              <li>JUnit</li>
+              <li>Jest</li>
+              <li>pytest</li>
+              <li>Vitest</li>
+              <li>Agile / Scrum</li>
+              <li>Code review</li>
+              <li>Unit testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="background" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-heading">
+            <p class="eyebrow">04 / Background</p>
+            <h2>Education and experience.</h2>
+          </div>
+        </div>
+
+        <div class="background-grid">
+          <div class="background-column reveal">
+            <p class="column-label">Education</p>
+            <div class="timeline">
+              <article class="timeline-item">
+                <p class="timeline-date">2023–2026</p>
+                <h3>Computer Engineering</h3>
+                <p class="timeline-org">KTH Royal Institute of Technology · 180 hp</p>
+                <p>Focus on software development. Relevant courses include Operating Systems, AI and Applied Methods, Architecture and Design of Global Applications, Interaction Programming and the Dynamic Web, Project and Project Methods, Computer Networks, Data Storage and Computer Hardware.</p>
+              </article>
+              <article class="timeline-item">
+                <p class="timeline-date">2020–2023</p>
+                <h3>Technology Programme</h3>
+                <p class="timeline-org">Fridegårdsgymnasiet · Design and Product Development</p>
+                <p>Upper secondary engineering programme with a design and product development profile.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="background-column reveal">
+            <p class="column-label">Experience</p>
+            <div class="timeline">
+              <article class="timeline-item">
+                <p class="timeline-date">2018</p>
+                <h3>IT Intern</h3>
+                <p class="timeline-org">Håbo Municipality</p>
+                <p>Removed inactive accounts and permissions, and reset and prepared computers for reuse.</p>
+              </article>
+              <article class="timeline-item">
+                <p class="timeline-date">2019 &amp; 2023</p>
+                <h3>Property Maintenance</h3>
+                <p class="timeline-org">Håbohus</p>
+                <p>Practical maintenance, cleaning and outdoor upkeep. Independent work with responsibility for completing routes and tasks.</p>
+              </article>
+            </div>
+
+            <p class="column-label column-label-spaced">Languages</p>
+            <ul class="language-list">
+              <li><span>Swedish</span><span>Fluent</span></li>
+              <li><span>English</span><span>Fluent</span></li>
+              <li><span>Dari</span><span>Native</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">05 / Contact</p>
+          <h2>Let's build something useful.</h2>
+          <p>I'm open to roles in backend, fullstack, data/AI and game development. The fastest way to reach me is email.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:khalil.kmail@proton.me">khalil.kmail@proton.me</a>
+            <button class="button button-ghost" type="button" data-copy-email="khalil.kmail@proton.me">Copy email</button>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/SrQuacksAlot" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/khalil-khalil-92997a256/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <span>Bålsta, Sweden</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Khalil Khalil</p>
+      <p>Built with HTML, CSS and JavaScript. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
